@@ -1,2 +1,3 @@
 # sales-data-analysis
-Learning 
+Learning.
+This project aims to analyze and sort sales data to provide actionable insights.
