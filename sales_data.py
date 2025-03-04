@@ -30,3 +30,17 @@ def total_sales(sales_data):
             month_sales[month] += quantity
         else:
             month_sales[month] = quantity
+            
+            
+def display_sales():
+    print("Total unități vândute pe produs:")
+    for product, total in product_sales.items():
+        print(f"- {product}: {total} unități")
+
+    print("\nTotal unități vândute pe lună:")
+    for month, total in month_sales.items():
+        print(f"- {month}: {total} unități")
+        
+
+total_sales(sales_data)
+display_sales()
